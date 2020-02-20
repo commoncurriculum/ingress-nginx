@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: backendk8slg-system
 commonLabels:
   app.kubernetes.io/name: prometheus
-  app.kubernetes.io/part-of: ingress-nginx
+  app.kubernetes.io/part-of: backendk8slg-system
 resources:
 - role.yaml
 - service-account.yaml
